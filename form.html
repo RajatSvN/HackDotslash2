@@ -26,12 +26,12 @@
     <div class="centerer">
     <div class="radioDivL">
     <label for="radio-1">Male</label>
-    <input type="radio" name="radio-a" id="radio-1">
+    <input type="radio" name="radio-a" id="p11">
   </div>
 
   <div class="radioDivR">
     <label for="radio-2">Female</label>
-    <input type="radio" name="radio-a" id="radio-2">
+    <input type="radio" name="radio-a" id="p12">
   </div>
 </div>
 </div>
@@ -45,12 +45,12 @@
     <div class="centerer">
     <div class="radioDivL">
     <label for="radio-1">Rural</label>
-    <input type="radio" name="radio-b" id="radio-1">
+    <input type="radio" name="radio-b" id="p21">
   </div>
 
   <div class="radioDivR">
     <label for="radio-2">Urban</label>
-    <input type="radio" name="radio-b" id="radio-2">
+    <input type="radio" name="radio-b" id="p22">
   </div>
 </div>
    </div> 
@@ -60,19 +60,19 @@
     <div class="centerer">
     <div class="radioDivL" >
     <label for="radio-1">Male</label>
-    <input type="radio" name="radio-c" id="radio-1">
+    <input type="radio" name="radio-c" id="p31">
   </div>
 
   <div class="radioDivR">
     <label for="radio-2">Female</label>
-    <input type="radio" name="radio-c" id="radio-2">
+    <input type="radio" name="radio-c" id="p32">
   </div>
 </div>
    </div> 
 
   <div class="clear"></div>
 
-    <input type="button" name="next" class="next action-button" value="Next" style="margin-top: 20px;" />
+    <input type="button" name="next" class="next action-button" value="Next" id="do" style="margin-top: 20px;" />
 
 
     
@@ -223,6 +223,51 @@
 
   <script type="text/javascript">
     
+  </script>
+
+  <script type="text/javascript">
+    
+    var elems = new Array(30) ;
+
+
+     $(document).ready(function () {
+
+$("#do").click(function(){
+
+  if($('#p11').is(':checked')) 
+      { elems[0] = "M" }
+    else if($('#p12').is(':checked')) 
+      { elems[0] = "F" }
+    else{
+      elems[0] = "garbage"
+    }
+    if($('#p21').is(':checked')) 
+      { elems[1] = "R" }
+    else if($('#p22').is(':checked')) 
+      { elems[1] = "U" }
+    else{
+      elems[1] = "garbage"
+    }
+    if($('#p31').is(':checked')) 
+      { elems[2] = "M" }
+    else if($('#p32').is(':checked')) 
+      { elems[2] = "F"}
+    else{
+      elems[2] = "garbage"
+    }
+
+    for(var i=0 ; i < 3 ; i++){
+      alert(elems[i]);
+    }
+
+
+});
+    
+
+});
+
+
+
   </script>
 
 </body>
