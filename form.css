@@ -25,6 +25,7 @@ body {
 
 }
 #msform fieldset {
+	
 	background: white;
 	border: 0 none;
 	border-radius: 3px;
@@ -37,6 +38,9 @@ body {
 	/*stacking fieldsets above each other*/
 	position: relative;
 }
+
+
+
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
 	display: none;
@@ -133,18 +137,33 @@ body {
 
 .radioDivL{
 	position: relative;
+	
+	margin-left: 20px;
+	
 	float: left;
 }
 
 .radioDivR{
 	position: relative;
+	
+	margin-left: 20px;
+	
 	float: right;
 }
 
-.radContainer{
-	margin-bottom: 30px; 
-	width: 50%;
+
+.centerer{
+	display: inline-block;
+	justify-content: center;
+	width: 250px;
+	margin-top: -10px;
 }
+
+.clear{
+	clear:both;
+}
+
+
 
 
 
