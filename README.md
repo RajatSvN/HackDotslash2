@@ -1,6 +1,3 @@
-# HackDotslash2
-Project for DotSlash 2.0
-
 # Student Intervention System
 ## Team : Support-Vectors || HackDotSlash2019
 
