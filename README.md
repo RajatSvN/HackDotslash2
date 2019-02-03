@@ -1,5 +1,6 @@
 # Student Intervention System
 ## Team : Support-Vectors || HackDotSlash2019
+## Members : Rajat Sharma, Divyam Srivastava, Rishabh Sharma
 
 ### Introduction
 In this competetive world, students need to keep pace with the current education system. Parents/Teachers keep an intervention of students after seeing the results mainly during the parent teachers meet. Many a times these manual intervenetions can become unnecessary if the elders only focus on absolute performance , whereas maybe the child might have done pretty well relatively. Also the socio-economic factors of the child plays a lot of role on his/her performance. The parents might not consider the childs overall emotional state and might set up an intervention straight up on analysing the poor results.
@@ -15,3 +16,4 @@ Our **ML model** considers various socio-economic factors for predicting the chi
 ### References 
 - UCI Machine Learning Repository - Student Performance Dataset
 - Fuzzy Logic based student academic evaluation system - Rajat Sharma(SVNIT) [[IJRECE]](http://nebula.wsimg.com/413ecc78a668feb30d60dfd4c9b5a14a?AccessKeyId=DFB1BA3CED7E7997D5B1&disposition=0&alloworigin=1)
+- Using Data Mining to Predict Secondary School Student Performance [[FUBUTEC]](http://www3.dsi.uminho.pt/pcortez/student.pdf)
