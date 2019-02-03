@@ -4,13 +4,19 @@
 /*basic reset*/
 * {margin: 0; padding: 0;}
 
+
+
 html {
+	
 	height: 100%;
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	background: 
-		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+	
+		background : linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+
+		
+
 }
 
 body {
@@ -135,6 +141,9 @@ body {
 	color: white;
 }
 
+
+/* Custom CSS */
+
 .radioDivL{
 	position: relative;
 	
@@ -163,7 +172,9 @@ body {
 	clear:both;
 }
 
-
+label{
+	font-weight: bold;
+}
 
 
 

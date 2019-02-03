@@ -9,196 +9,371 @@
 <form id="msform">
   <!-- progressbar -->
   <ul id="progressbar" >
-    <li class="active">Group 1</li>
-    <li>Group 2</li>
-    <li>Group3</li>
+    <li class="active"></li>
+    <li></li>
+    <li></li>
 
 </ul>
   <!-- fieldsets -->
 
-   <fieldset>
-    <h2 class="fs-title">Create your account</h2>
-    <h3 class="fs-subtitle">This is step 1</h3>
-   <!-- Custom radio box containers -->
-   <div class="radioBox">
-    <center><b>Gender</b></center><br>
-    
-    <div class="centerer">
-    <div class="radioDivL">
-    <label for="radio-1">Male</label>
-    <input type="radio" name="radio-a" id="p11">
-  </div>
-
-  <div class="radioDivR">
-    <label for="radio-2">Female</label>
-    <input type="radio" name="radio-a" id="p12">
-  </div>
-</div>
-</div>
-
-   </div> 
-
-   <div class="clear"></div>
-
-   <div class="radioBox">
-    <center><b>Background</b></center><br>
-    <div class="centerer">
-    <div class="radioDivL">
-    <label for="radio-1">Rural</label>
-    <input type="radio" name="radio-b" id="p21">
-  </div>
-
-  <div class="radioDivR">
-    <label for="radio-2">Urban</label>
-    <input type="radio" name="radio-b" id="p22">
-  </div>
-</div>
-   </div> 
-
-   <div class="radioBox">
-    <center><b>Gender</b></center><br>
-    <div class="centerer">
-    <div class="radioDivL" >
-    <label for="radio-1">Male</label>
-    <input type="radio" name="radio-c" id="p31">
-  </div>
-
-  <div class="radioDivR">
-    <label for="radio-2">Female</label>
-    <input type="radio" name="radio-c" id="p32">
-  </div>
-</div>
-   </div> 
-
-  <div class="clear"></div>
-
-    <input type="button" name="next" class="next action-button" value="Next" id="do" style="margin-top: 20px;" />
-
-
-    
-    
-  </fieldset>
-
-
-
   <fieldset>
-    <h2 class="fs-title">Social Profiles</h2>
-    <h3 class="fs-subtitle">Your presence on the social network</h3>
+    <h2 class="fs-title">Initial Steps</h2>
+    <h3 class="fs-subtitle">This is step 1</h3>
+    <label for="school">School </label>
+    <select name="school" id="school">
+      
+      <option selected="selected">Private</option>
+      <option>Urban</option>
+      
+    </select>
 
-    <div class="radioBox">
-    <center><b>Gender</b></center><br>
+    <br><br>
+
+    <label for="sex">Sex</label>
+    <select name="sex" id="sex">
+      
+      <option selected="selected">Male</option>
+      <option>Female</option>
+      
+    </select>
+
+    <br><br>
+
+
+    <label for="age"> Age </label>
+    <select name="age" id="age">
+      
+      <option selected="selected">15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+    </select>
+
+    <br><br>
+
+    <label for="address"> Locality </label>
+    <select name="address" id="address">
+      
+      <option selected="selected">Urban</option>
+      <option>Rural</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="famsize">Family Size </label>
+    <select name="famsize" id="famsize">
+      
+      <option selected="selected">less than 3</option>
+      <option>greater than 3</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="Pstatus">Parent's Cohabitation Status</label>
+    <select name="Pstatus" id="Pstatus">
+      
+      <option selected="selected">Together</option>
+      <option>Apart</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="Medu">Mother's Education</label>
+    <select name="Medu" id="Medu">
+      <option>None</option>
+      <option>Primary</option>
+      <option selected="selected">5th to 9th Grade</option>
+      <option>Secondary</option>
+      <option>Higher</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="Fedu">Father's Education</label>
+    <select name="Fedu" id="Fedu">
+      <option>None</option>
+      <option>Primary</option>
+      <option selected="selected">5th to 9th Grade</option>
+      <option>Secondary</option>
+      <option>Higher</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="Mjob">Mother's Job </label>
+    <select name="Mjob" id="Mjob">
+      
+      <option selected="selected">Teacher</option>
+      <option>Health</option>
+      <option>Services</option>
+      <option>At home</option>
+      <option>Other</option>
+    </select>
+
+    <br><br>
+
+    <label for="Fjob">Father's Job </label>
+    <select name="Fjob" id="Fjob">
+      
+      <option selected="selected">Teacher</option>
+      <option>Health</option>
+      <option>Services</option>
+      <option>At home</option>
+      <option>Other</option>
+      
+    </select>
+
+    <br><br>
+
     
-    <div class="centerer">
-    <div class="radioDivL">
-    <label for="radio-1">Male</label>
-    <input type="radio" name="radio-a" id="radio-1">
-  </div>
 
-  <div class="radioDivR">
-    <label for="radio-2">Female</label>
-    <input type="radio" name="radio-a" id="radio-2">
-  </div>
-</div>
-</div>
 
-   </div> 
 
-   <div class="clear"></div>
 
-   <div class="radioBox">
-    <center><b>Background</b></center><br>
-    <div class="centerer">
-    <div class="radioDivL">
-    <label for="radio-1">Rural</label>
-    <input type="radio" name="radio-b" id="radio-1">
-  </div>
+    <label for="reason">Reason to choose school </label>
+    <select name="reason" id="reason">
+      <option>close to home</option>
+      <option selected="selected">reputation</option>
+      <option >course preference</option>
+      <option>other</option>
+    </select>
 
-  <div class="radioDivR">
-    <label for="radio-2">Urban</label>
-    <input type="radio" name="radio-b" id="radio-2">
-  </div>
-</div>
-   </div> 
+    <br><br>
 
-   <div class="radioBox">
-    <center><b>Gender</b></center><br>
-    <div class="centerer">
-    <div class="radioDivL" >
-    <label for="radio-1">Male</label>
-    <input type="radio" name="radio-c" id="radio-1">
-  </div>
+    <input type="button" name="next" class="next action-button" value="Next"/>
+  </fieldset>
+   
+  <fieldset>
+    <h2 class="fs-title">Moving Further...</h2>
+    <h3 class="fs-subtitle">This is step 2</h3>
+    
 
-  <div class="radioDivR">
-    <label for="radio-2">Female</label>
-    <input type="radio" name="radio-c" id="radio-2">
-  </div>
-</div>
-   </div> 
+    <label for="guardian">Guardian </label>
+    <select name="guardian" id="guardian">
+      <option selected="selected">Father</option>
+      <option>Mother</option>
+      <option>other</option>
 
-  <div class="clear"></div>
+    </select>
+
+    <br><br>
+
+    <label for="traveltime">Travel Time</label>
+    <select name="traveltime" id="traveltime">
+      <option>less than 15 min</option>
+      <option>15-30 min</option>
+      <option selected="selected">30min-1hr</option>
+      <option>greater than 1 hour</option>
+     
+    </select>
+
+    <br><br>
+
+    <label for="studytime">Study Time</label>
+    <select name="studytime" id="studytime">
+      <option>less than 2 hours</option>
+      <option>2-5 hrs</option>
+      <option selected="selected">5-10 hrs</option>
+      <option>greater than 10 hrs</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="failures">No. of past failures</label>
+    <select name="failures" id="failures">
+      <option>0</option>
+      <option>1</option>
+      <option selected="selected">2</option>
+      <option>3</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="schoolsup">School Extra Classes</label>
+    <select name="schoolsup" id="schoolsup">
+      
+      <option selected="selected">Yes</option>
+      <option>No</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="famsup">Family educational Support</label>
+    <select name="famsup" id="famsup">
+      
+      <option selected="selected">Yes</option>
+      <option>No</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="paid">Tution</label>
+    <select name="paid" id="paid">
+      
+      <option selected="selected">Yes</option>
+      <option>No</option>
+      
+    </select>
+
+    <br><br>
+
+    <label for="activities">Co-Curricular activities</label>
+    <select name="activities" id="activities">
+      <option selected="selected">Yes</option>
+      <option>No</option>
+    </select>
+
+    <br><br>
+
+    <label for="nursery">Attended Nursery School</label>
+    <select name="nursery" id="nursery">
+      <option selected="selected">Yes</option>
+      <option>No</option>
+    </select>
+
+    <br><br>
+
+    <label for="higher">Want of Higher Education</label>
+    <select name="higher" id="higher">
+      <option selected="selected">Yes</option>
+      <option>No</option>
+    </select>
+
+    <br><br>
+
+
+
+
+    <label for="internet">Internet Access </label>
+    <select name="internet" id="internet">
+      <option selected="selected">Yes</option>
+      <option>No</option>
+    </select>
+
+    <br><br>
 
     
 
-    <input type="button" name="previous" class="previous action-button" value="Previous" />
-    <input type="button" name="next" class="next action-button" value="Next" />
+    <input type="button" name="previous" class="previous action-button" value="Previous"  />
+    <input type="button" name="next" class="next action-button" value="Next" id ="do1"/>
   </fieldset>
 
   
 
   <fieldset>
-    <div class="radioBox">
-    <center><b>Gender</b></center><br>
+
+    <h2 class="fs-title">Finishing Stuff</h2>
+    <h3 class="fs-subtitle">This is the 3rd and final step</h3>
+
+        <label for="romantic">Past Romantic RelationShips</label>
+    <select name="romantic" id="romantic">
+      <option selected="selected">Yes</option>
+      <option>No</option>
+    </select>
+
+    <br><br>
+
+    <label for="famrel">Family Relationship (on scale of 1-5) </label>
+    <select name="famrel" id="famrel">
+      <option>1</option>
+      <option>2</option>
+      <option selected="selected">3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <br><br>
+
+    <label for="freetime">Freetime (on scale of 1-5)  </label>
+    <select name="freetime" id="freetime">
+      <option>1</option>
+      <option>2</option>
+      <option selected="selected">3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <br><br>
+
+    <label for="goout">Hanging out (on scale of 1-5)  </label>
+    <select name="goout" id="goout">
+      <option>1</option>
+      <option>2</option>
+      <option selected="selected">3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <br><br>
+
+    <label for="Dalc">Workday Alcohol Consumption (on scale of 1-5) 
+    </label>
+    <select name="Dalc" id="Dalc">
+      <option>1</option>
+      <option>2</option>
+      <option selected="selected">3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <br><br>
+
+    <label for="Walc">Weekend Alcohol Consumption (on scale of 1-5) 
+    </label>
+    <select name="Walc" id="Walc">
+      <option>1</option>
+      <option>2</option>
+      <option selected="selected">3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <br><br>
+
+    <label for="health">Health Status (on scale of 1-5)</label>
+    <select name="health" id="health">
+      <option>1</option>
+      <option>2</option>
+      <option selected="selected">3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <br><br>
+
+      <input type="number" name="absence" placeholder="Absent days between 0-93" min="0" max="93" id="absence"/>
+
+    <br><br>
+
+    <input type="number" name="G1" id="G1" placeholder="Mid Sem 1 Marks in %Age" min="0" max="100"/>
+    </select>
+
+    <br><br>
+
+    <input type="number" name="G2" id="G2" placeholder="Mid Sem 2 Marks in %Age"
+    min="0" max="100" />
+
+    <br><br>
+
     
-    <div class="centerer">
-    <div class="radioDivL">
-    <label for="radio-1">Male</label>
-    <input type="radio" name="radio-a" id="radio-1">
-  </div>
-
-  <div class="radioDivR">
-    <label for="radio-2">Female</label>
-    <input type="radio" name="radio-a" id="radio-2">
-  </div>
-</div>
-</div>
-
-   </div> 
-
-   <div class="clear"></div>
-
-   <div class="radioBox">
-    <center><b>Background</b></center><br>
-    <div class="centerer">
-    <div class="radioDivL">
-    <label for="radio-1">Rural</label>
-    <input type="radio" name="radio-b" id="radio-1">
-  </div>
-
-  <div class="radioDivR">
-    <label for="radio-2">Urban</label>
-    <input type="radio" name="radio-b" id="radio-2">
-  </div>
-</div>
-   </div> 
-
-   <div class="radioBox">
-    <center><b>Gender</b></center><br>
-    <div class="centerer">
-    <div class="radioDivL" >
-    <label for="radio-1">Male</label>
-    <input type="radio" name="radio-c" id="radio-1">
-  </div>
-
-  <div class="radioDivR">
-    <label for="radio-2">Female</label>
-    <input type="radio" name="radio-c" id="radio-2">
-  </div>
-</div>
-   </div> 
-
-  <div class="clear"></div>
+    
+    
+    
     <input type="button" name="previous" class="previous action-button" value="Previous" />
-    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit" id="do"/>
   </fieldset>
 
     
@@ -234,37 +409,225 @@
 
 $("#do").click(function(){
 
-  if($('#p11').is(':checked')) 
-      { elems[0] = "M" }
-    else if($('#p12').is(':checked')) 
-      { elems[0] = "F" }
-    else{
-      elems[0] = "garbage"
-    }
-    if($('#p21').is(':checked')) 
-      { elems[1] = "R" }
-    else if($('#p22').is(':checked')) 
-      { elems[1] = "U" }
-    else{
-      elems[1] = "garbage"
-    }
-    if($('#p31').is(':checked')) 
-      { elems[2] = "M" }
-    else if($('#p32').is(':checked')) 
-      { elems[2] = "F"}
-    else{
-      elems[2] = "garbage"
-    }
+  if($("#school").val() == "Private"){
+      elems[0] = 'GP';
+  }else{
+      elems[0] = 'MS';
+  }
 
-    for(var i=0 ; i < 3 ; i++){
-      alert(elems[i]);
-    }
+  if($("#sex").val() == "Male"){
+      elems[1] = 'M';
+  }else{
+      elems[1] = 'F';
+  }
+
+  elems[2] = parseInt($("#age").val());
+
+  if($("#address").val() == "Urban"){
+      elems[3] = 'U';
+  }else{
+      elems[3] = 'R';
+  }
+
+  if($("#famsize").val() == "less than 3"){
+      elems[4] = 'LE3';
+  }else{
+      elems[4] = 'GT3';
+  }
+
+  if($("#Pstatus").val() == "Together"){
+      elems[5] = 'T';
+  }else{
+      elems[5] = 'A';
+  }
+
+  if($("#Medu").val() == "None"){
+      elems[6] = 0;
+  }else if($("#Medu").val() == "Primary"){
+      elems[6] = 1;
+  }else if($("#Medu").val() == "5th to 9th Grade"){
+      elems[6] = 2;
+  }else if($("#Medu").val() == "Secondary"){
+      elems[6] = 3;
+  }
+  else{
+      elems[6] = 4;
+  }
+
+  if($("#Fedu").val() == "None"){
+      elems[7] = 0;
+  }else if($("#Fedu").val() == "Primary"){
+      elems[7] = 1;
+  }else if($("#Fedu").val() == "5th to 9th Grade"){
+      elems[7] = 2;
+  }else if($("#Fedu").val() == "Secondary"){
+      elems[7] = 3;
+  }
+  else{
+      elems[7] = 4;
+  }
+
+  if($("#Mjob").val() == "Teacher"){
+      elems[8] = 'teacher';
+  }else if($("#Mjob").val() == "Health"){
+      elems[8] = 'health';
+  }else if($("#Mjob").val() == "Services"){
+      elems[8] = 'services';
+  }else if($("#Mjob").val() == "At home"){
+      elems[8] = 'at_home';
+  }else{
+      elems[8] = 'other';
+  }
+
+  if($("#Fjob").val() == "Teacher"){
+      elems[9] = 'teacher';
+  }else if($("#Fjob").val() == "Health"){
+      elems[9] = 'health';
+  }else if($("#Fjob").val() == "Services"){
+      elems[9] = 'services';
+  }else if($("#Fjob").val() == "At home"){
+      elems[9] = 'at_home';
+  }else{
+      elems[9] = 'other';
+  }
+
+  if($("#reason").val() == "close to home"){
+      elems[10] ='home';
+  }else if($("#reason").val() == "reputation"){
+      elems[10] = 'reputation';
+  }else if($("#reason").val() == "course preference"){
+      elems[10] = 'course';
+  }else{
+      elems[10] ='other';
+  }
+
+  if($("#guardian").val() == "Father"){
+      elems[11] ='father';
+  }else if($("#guardian").val() == "Mother"){
+      elems[11] = 'mother';
+  }else{
+      elems[11] ='other';
+  }
+      
+      if($("#traveltime").val()=="less than 15 min"){
+        elems[12]=1;
+      }else if($("#traveltime").val()=="15-30 min"){
+        elems[12]=2;
+      }else if($("#traveltime").val() == "30min-1hr"){
+        elems[12]=3;
+      }else{
+        elems[12]=4;
+      }
+
+      if($("#studytime").val()=="less than 2 hours"){
+        elems[13]=1;
+      }else if($("#studytime").val()=="2-5 hrs"){
+        elems[13]=2;
+      }else if($("#studytime").val()=="5-10 hrs"){
+        elems[13]=3;
+      }else{
+        elems[13]=4;
+      }
+
+      if($("#failures").val()=="0"){
+        elems[14]=0;
+      }else if($("#studytime").val()=="1"){
+        elems[14]=1;
+      }else if($("#studytime").val()=="2"){
+        elems[14]=2;
+      }else{
+        elems[14]=3;
+      }
+
+      if($("#schoolsup").val() == "Yes"){
+        elems[15]="yes";
+      }else{
+        elems[15]="no";
+      }
+
+      if($("#famsup").val() == "Yes"){
+        elems[16]="yes";
+      }else{
+        elems[16]="no";
+      }
+
+      if($("#paid").val() == "Yes"){
+        elems[17]="yes";
+      }else{
+        elems[17]="no";
+      }
+
+      if($("#activities").val() == "Yes"){
+        elems[18]="yes";
+      }else{
+        elems[18]="no";
+      }
+
+      if($("#nursery").val() == "Yes"){
+        elems[19]="yes";
+      }else{
+        elems[19]="no";
+      }
+
+      if($("#higher").val() == "Yes"){
+        elems[20]="yes";
+      }else{
+        elems[20]="no";
+      }
+
+      if($("#internet").val() == "Yes"){
+        elems[21]="yes";
+      }else{
+        elems[21]="no";
+      }
+
+      if($("#romantic").val() == "Yes"){
+        elems[22]="yes";
+      }else{
+        elems[22]="no";
+      }
+
+      elems[23]=parseInt($("#famrel").val());
+      elems[24]=parseInt($("#freetime").val());
+      elems[25]=parseInt($("#goout").val());
+      elems[26]=parseInt($("#Dalc").val());
+      elems[27]=parseInt($("#Walc").val());
+      elems[28]=parseInt($("#health").val());
+      elems[29]=parseInt($("#absence").val());
+      elems[30]=Math.round($("#G1").val()/5);
+      elems[31]=Math.round($("#G2").val()/5);
+
+
+  
+
+  $.ajax({
+    type : "POST",
+    url : "http://localhost:5000/",
+    data: JSON.stringify(elems),
+    contentType: 'application/json;charset=UTF-8',
+    success: function(result) {
+          alert(result);
+        }
+
+        
+
+        
+    });
+
+
+
+  
 
 
 });
+
+
     
 
+
 });
+
+
 
 
 
